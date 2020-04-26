@@ -39,4 +39,4 @@ Edit `~/.bashrc` and add line `export VARIABLE=value`; type `source ~/.bashrc` r
 `cat > <filename> << EOF` interactively insert lines into new file until `EOF` is entered  
 `sed` used to find and replace values within files  
 `awk` extract and print specific contents of a file  
-
+`scp <localfile> <user@remotesystem>:/home/user/`  copy a local file to a remote system
