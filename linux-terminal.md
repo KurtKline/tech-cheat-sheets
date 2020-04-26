@@ -23,4 +23,10 @@
 `echo line one > myfile.txt` writes "line one" to a file  
 `echo line two >> myfile.txt` writes "line two" to the existing myfile.txt  
 `cat << EOF > myfile.txt` creates file myfile.txt, and will prompt user to enter lines of file until EOF is entered  
-`vimtutor` to access vim tutorial
+`vimtutor` to access vim tutorial  
+`whoami` current user  
+`who` currently logged-on users  
+`set`, `env`, or `export` to see environment variables  
+`echo $USER` show the value of a specific environment variable  
+`export VARIABLE=value` set a new environment variable (temporarily)  
+Edit `~/.bashrc` and add line `export VARIABLE=value`; type `source ~/.bashrc` reads and executes new commands  
