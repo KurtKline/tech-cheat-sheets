@@ -30,3 +30,13 @@
 `echo $USER` show the value of a specific environment variable  
 `export VARIABLE=value` set a new environment variable (temporarily)  
 Edit `~/.bashrc` and add line `export VARIABLE=value`; type `source ~/.bashrc` reads and executes new commands  
+`export PATH=$HOME/bin:$PATH` prefix a private bin directory to your path  
+`history` show recently used terminal commands 
+    `CTRL-R` to search previously used commands  
+    `!!` execute last command
+    `!n` refer to the nth command line shown in history  
+`cat > <filename>` interactively insert lines into new file until `CTRL-D` is pressed  
+`cat > <filename> << EOF` interactively insert lines into new file until `EOF` is entered  
+`sed` used to find and replace values within files  
+`awk` extract and print specific contents of a file  
+
