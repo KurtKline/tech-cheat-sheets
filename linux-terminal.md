@@ -20,3 +20,7 @@
 `diff3 MY-FILE COMMON-FILE YOUR-FILE` compares 3 files, using one common file as reference  
 `file *` shows files and directories, and types of files  
 `rsync sourcefile destinationfile` syncs file or entire directory from source to destination   
+`echo line one > myfile.txt` writes "line one" to a file  
+`echo line two >> myfile.txt` writes "line two" to the existing myfile.txt  
+`cat << EOF > myfile.txt` creates file myfile.txt, and will prompt user to enter lines of file until EOF is entered  
+`vimtutor` to access vim tutorial
