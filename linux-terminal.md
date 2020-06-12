@@ -1,7 +1,7 @@
 `cd /` go to root directory  
 `cd` or `cd ~` go to home directory  
 `ls -a` list all files, including hidden files and directories  
-`ls -l` show files and permissions of files in current directory
+`ls -l` show files and permissions of files in current directory  
 `tree` shows tree view of filesystem  
 `tree -d` shows just directories  
 `less` view larger files in a paging manner. Use `/` to search for a pattern forwards, and `?` backwards  
